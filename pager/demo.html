@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>bulidpage</title>
+  <style>
+	.paging {
+		padding: 20px 0;
+		text-align: center;
+	}
+	.paging a, .paging span {
+		color: #4c4c4c;
+		display: inline-block;
+		font-family: 'Tahoma';
+		height: 23px;
+		line-height: 23px;
+		margin: 0 1px;
+		min-width: 12px;
+		padding: 0 5px;
+		vertical-align: middle;
+		text-decoration:none;
+		font-size: 12px;
+	}
+	.paging a {
+		background: url("pages.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+		border: 1px solid #dcdcdc;
+	}
+	.paging a:hover {
+		background: none repeat scroll 0 0 #d9d9d9;
+		border: 1px solid #bdbfc2;
+		color: #4c4c4c;
+		text-decoration: none;
+	}
+	.paging span {
+		background: url("pages.png") repeat-x scroll 0 -24px rgba(0, 0, 0, 0);
+		border: medium none;
+		color: #fff;
+		padding: 1px 6px;
+		text-decoration: none;
+	}
+	.paging a.dot {
+		background: url("pages.png") no-repeat scroll 0 -155px rgba(0, 0, 0, 0);
+		border: medium none;
+		padding: 1px 6px;
+	}
+	.paging a.prev, .paging a.next {
+		border: medium none;
+		height: 25px;
+		padding: 0;
+		width: 34px;
+	}
+	.paging a.prev {
+		background: url("pages.png") no-repeat scroll 0 -50px rgba(0, 0, 0, 0);
+	}
+	.paging a.next {
+		background: url("pages.png") no-repeat scroll 0 -76px rgba(0, 0, 0, 0);
+	}
+	.paging a.prev:hover {
+		background: url("pages.png") no-repeat scroll 0 -102px rgba(0, 0, 0, 0);
+		border: medium none;
+		padding: 0;
+	}
+	.paging a.next:hover {
+		background: url("pages.png") no-repeat scroll 0 -128px rgba(0, 0, 0, 0);
+		border: medium none;
+		padding: 0;
+	}
+	.paging a.dot, .paging a.prev, .paging a.next {
+		overflow: hidden;
+	}
+  </style>
+  <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="template.min.js"></script>
+  <script type="text/javascript" src="jquery.buildpage.js"></script>
+</head>
+<body>
+<div id="page10">
+  <h1>标准的，基于10个的翻页</h1>
+</div>
+<div id="page5">
+  <h1>个数可定制，比如5个</h1>
+</div>
+<script type="text/javascript">
+  var paging10 = $.buildPage();
+  var $page10 = $('#page10');
+  $page10.append(paging10(1, 10));
+  $page10.append(paging10(1, 20));
+  $page10.append(paging10(6, 20));
+  $page10.append(paging10(7, 20));
+
+  var paging5 = $.buildPage({
+      max:5,
+      data : {
+          attr : 'href',
+          value : '/ajax/page?{num}'
+      }
+  });
+  var $page5 = $('#page5');
+  $page5.append(paging5(1,5));
+  /*$page5.append(paging5(1, 20));
+  $page5.append(paging5(3, 20));
+  $page5.append(paging5(4, 20));*/
+
+</script>
+</body>
+</html>
