@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>TreeGrid-3.0</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="Generator" CONTENT="EditPlus">
+<link type="text/css" rel="stylesheet" href="css/public.css"/>
+<link type="text/css" rel="stylesheet" href="css/treegrid-3.0.css"/>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/jquery.min-1.11.3.js"></script>
+<script type="text/javascript" src="js/json-tree.js"></script>
+<script type="text/javascript" src="js/tree.js"></script>
+</HEAD>
+
+<BODY>
+	<input type="button" value="展开所有节点" onclick="_expandAll()">
+	<input type="button" value="折叠 所有节点" onclick="_collapseAll()">
+	<input type="button" value="刷新" onclick="_refresh()">
+
+	<br><br><textarea id="currentRow" rows="4" cols="100"></textarea>
+	<br><br><div id="div1" style="width:850px;"></div>
+
+
+	<script language="javascript">
+		$.ajax({
+			url:'tree.json',
+			dataType:'json',
+			success:function(res){
+				var config = {
+					chk_show:true,
+					height:300,
+					width:300,
+					chk_node_next:true,
+					chk_cascade_select_children: true,
+					chk_cascade_select_parent: true,
+					"id_field": "id",
+					"dataset":jsonTree(res, {
+					    id: 'id',
+					    pid: 'pid',
+					    children: 'children'
+					}),
+					
+					onClickRow: function(id, index, data){
+						jQuery("#currentRow").val("onClickRow: " + id + "," + index + "," + data.text);
+					},
+					onDblClickRow: onDblClickRow
+				};
+
+				window.treeGrid = jQuery("#div1").showTree(config);
+				treeGrid.expandAll();
+			}
+		})
+		var onDblClickRow = function(id, index, data){
+			jQuery("#currentRow").val("onDblClickRow: " + id + "," + index + "," + data.orgName);
+		}
+		
+		
+		
+		function jdHandler(trid, fieldValue, rowdata, colMeta){
+			var n = Math.floor(Math.random()*(100-1))+1;
+			return "<div style=\"width:" + n + ";background:red;height:100%;\">" + n + "</div>";
+		}
+		
+		function operateHandler(trid, fieldValue, rowdata, colMeta){
+			var s = "";
+			s += "<a  href='/sd' style='color:blue'>查看</a>&nbsp;&nbsp;";
+			s += "<a href='javascript:void(0)' style='color:blue'>编辑</a>&nbsp;&nbsp;";
+			s += "<a href='javascript:void(0)' style='color:blue'>删除</a>";
+			return s;
+		}
+
+		
+		function _expandAll(){
+			treeGrid.expandAll();
+		}
+		
+		function _collapseAll(){
+			treeGrid.collapseAll();
+		}
+
+		function _refresh(){
+			treeGrid.show();
+		}
+	</script>
+
+</BODY>
+</HTML>

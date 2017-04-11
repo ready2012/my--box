@@ -1,0 +1,2874 @@
+[{
+	"attributes": {},
+	"checked": false,
+	"id": 667,
+	"pid": 0,
+	"state": "open",
+	"text": "乐购管理后台"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 1,
+	"pid": 0,
+	"state": "open",
+	"text": "基础管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 2,
+	"pid": 0,
+	"state": "open",
+	"text": "产品管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"id": 3,
+	"pid": 0,
+	"state": "open",
+	"text": "资源管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"id": 4,
+	"pid": 0,
+	"state": "open",
+	"text": "运营管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"id": 5,
+	"pid": 0,
+	"state": "open",
+	"text": "客服管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 6,
+	"pid": 0,
+	"state": "open",
+	"text": "对外合作管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"id": 8,
+	"pid": 0,
+	"state": "open",
+	"text": "财务管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"id": 9,
+	"pid": 0,
+	"state": "open",
+	"text": "统计报表"
+}, {
+	"attributes": {
+		"url": "/mini/vendor/toList"
+	},
+	"checked": false,
+	"id": 673,
+	"pid": 667,
+	"state": "open",
+	"text": "商户管理"
+}, {
+	"attributes": {
+		"url": "/mini/attribute"
+	},
+	"checked": false,
+	"id": 668,
+	"pid": 667,
+	"state": "open",
+	"text": "商品属性管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/vipType/list.do"
+	},
+	"checked": false,
+	"id": 553,
+	"pid": 552,
+	"state": "open",
+	"text": "会员字典"
+}, {
+	"attributes": {
+		"url": "/mini/category/toList"
+	},
+	"checked": false,
+	"id": 670,
+	"pid": 667,
+	"state": "open",
+	"text": "商品分类管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/vipDuration/list.do"
+	},
+	"checked": false,
+	"id": 554,
+	"pid": 681,
+	"state": "open",
+	"text": "会员时长管理"
+}, {
+	"attributes": {
+		"url": "/mini/category_attr"
+	},
+	"checked": false,
+	"id": 669,
+	"pid": 667,
+	"state": "open",
+	"text": "商品分类属性管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 680,
+	"pid": 552,
+	"state": "open",
+	"text": "会员权益"
+}, {
+	"attributes": {
+		"url": "/v2/product/vipPackage/list.do"
+	},
+	"checked": false,
+	"id": 555,
+	"pid": 681,
+	"state": "open",
+	"text": "会员售卖套餐管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/packageGroup/list.do"
+	},
+	"checked": false,
+	"id": 609,
+	"pid": 681,
+	"state": "open",
+	"text": "会员套餐分组管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/video/letv.do"
+	},
+	"checked": false,
+	"id": 685,
+	"pid": 680,
+	"state": "open",
+	"text": "点播内容管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/sport_live.do"
+	},
+	"checked": false,
+	"id": 557,
+	"pid": 680,
+	"state": "open",
+	"text": "直播场次管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/liveMatch/list.do"
+	},
+	"checked": false,
+	"id": 570,
+	"pid": 680,
+	"state": "open",
+	"text": "直播赛事管理"
+}, {
+	"attributes": {
+		"url": "/mini/sku/toList"
+	},
+	"checked": false,
+	"id": 671,
+	"pid": 667,
+	"state": "open",
+	"text": "商品管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/liveItem/list.do"
+	},
+	"checked": false,
+	"id": 679,
+	"pid": 680,
+	"state": "open",
+	"text": "直播频道管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 681,
+	"pid": 552,
+	"state": "open",
+	"text": "售卖套餐"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 254,
+	"pid": 4,
+	"state": "open",
+	"text": "微信菜单管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/livePackage/list.do"
+	},
+	"checked": false,
+	"id": 556,
+	"pid": 681,
+	"state": "open",
+	"text": "直播券售卖套餐管理"
+}, {
+	"attributes": {
+		"url": "/movie_charge/movie_charge.do"
+	},
+	"checked": false,
+	"id": 48,
+	"pid": 2,
+	"state": "open",
+	"text": "单片价格管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 284,
+	"pid": 4,
+	"state": "open",
+	"text": "代金券管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/video/letv.do"
+	},
+	"checked": false,
+	"id": 61,
+	"pid": 2,
+	"state": "open",
+	"text": "点播内容管理"
+}, {
+	"attributes": {
+		"url": "/mini/spu"
+	},
+	"checked": false,
+	"id": 672,
+	"pid": 667,
+	"state": "open",
+	"text": "商品聚合售卖管理"
+}, {
+	"attributes": {
+		"url": "/v2/product/live_channel.do"
+	},
+	"checked": false,
+	"id": 563,
+	"pid": 680,
+	"state": "open",
+	"text": "轮播台管理"
+}, {
+	"attributes": {
+		"url": "/sport_live/sport_live.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 59,
+	"pid": 2,
+	"state": "open",
+	"text": "体育直播内容管理"
+}, {
+	"attributes": {
+		"url": "/concert_live/concert_live.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 55,
+	"pid": 2,
+	"state": "open",
+	"text": "演唱会直播内容管理"
+}, {
+	"attributes": {
+		"url": "/sportlive_dic/sportlive_dic.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 41,
+	"pid": 2,
+	"state": "open",
+	"text": "体育直播字典表"
+}, {
+	"attributes": {
+		"url": "/sso_user/sso_user.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 72,
+	"pid": 67,
+	"state": "open",
+	"text": "SSO用户信息查询"
+}, {
+	"attributes": {
+		"url": "/sso_user/batch_show.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 375,
+	"pid": 67,
+	"state": "open",
+	"text": "SSO用户信息批量查询"
+}, {
+	"attributes": {
+		"url": "/v2_user_comp_query/user_comp_query.do"
+	},
+	"checked": false,
+	"id": 691,
+	"pid": 687,
+	"state": "open",
+	"text": "用户综合查询"
+}, {
+	"attributes": {
+		"url": "/weixin/menu.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 256,
+	"pid": 254,
+	"state": "open",
+	"text": "自定义菜单管理"
+}, {
+	"attributes": {
+		"url": "/cxll.do"
+	},
+	"checked": false,
+	"id": 513,
+	"pid": 6,
+	"state": "open",
+	"text": "运营商流量套餐"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/balanceAccout.do?companyId=1"
+	},
+	"checked": false,
+	"id": 516,
+	"pid": 431,
+	"state": "open",
+	"text": "会员财务对账"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/huabeiStatPage.do"
+	},
+	"checked": false,
+	"id": 517,
+	"pid": 325,
+	"state": "open",
+	"text": "花呗支付统计"
+}, {
+	"attributes": {
+		"url": "/share_copyright_config/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 264,
+	"pid": 214,
+	"state": "open",
+	"text": "版权方系数配置"
+}, {
+	"attributes": {
+		"url": "/tj/orderPaySuccController/auditIncomePage"
+	},
+	"checked": false,
+	"id": 520,
+	"pid": 450,
+	"state": "open",
+	"text": "月收入查询"
+}, {
+	"attributes": {
+		"url": "/tj/activity_tv/view"
+	},
+	"checked": false,
+	"id": 521,
+	"pid": 450,
+	"state": "open",
+	"text": "TV活跃用户分析"
+}, {
+	"attributes": {
+		"url": "/sys"
+	},
+	"checked": false,
+	"id": 10,
+	"pid": 1,
+	"state": "open",
+	"text": "菜单配置"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/zeusBalanceAccout.do"
+	},
+	"checked": false,
+	"id": 522,
+	"pid": 431,
+	"state": "open",
+	"text": "商城宙斯对账"
+}, {
+	"attributes": {
+		"url": "/role"
+	},
+	"checked": false,
+	"id": 11,
+	"pid": 1,
+	"state": "open",
+	"text": "角色管理"
+}, {
+	"attributes": {
+		"url": "/device/donate_query.do"
+	},
+	"checked": false,
+	"id": 523,
+	"pid": 109,
+	"state": "open",
+	"text": "机卡赠送管理"
+}, {
+	"attributes": {
+		"url": "/share_play_config/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 268,
+	"pid": 214,
+	"state": "open",
+	"text": "播放分成配置"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 525,
+	"pid": 9,
+	"state": "open",
+	"text": "体育会员报表"
+}, {
+	"attributes": {
+		"url": "/tj/sport/list.do"
+	},
+	"checked": false,
+	"id": 526,
+	"pid": 525,
+	"state": "open",
+	"text": "体育会员订单明细"
+}, {
+	"attributes": {
+		"url": "/share_cpm_config/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 274,
+	"pid": 214,
+	"state": "open",
+	"text": "CPM分成配置"
+}, {
+	"attributes": {
+		"url": "/user"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 22,
+	"pid": 1,
+	"state": "open",
+	"text": "用户管理"
+}, {
+	"attributes": {
+		"url": "/share_pay_config/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 278,
+	"pid": 214,
+	"state": "open",
+	"text": "付费分成配置"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 534,
+	"pid": 0,
+	"state": "open",
+	"text": "虚拟帐户"
+}, {
+	"attributes": {
+		"url": "/package/package.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 23,
+	"pid": 2,
+	"state": "open",
+	"text": "套餐管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 535,
+	"pid": 534,
+	"state": "open",
+	"text": "用户帐户"
+}, {
+	"attributes": {
+		"url": "/lebi/rechargedetail/list.do"
+	},
+	"checked": false,
+	"id": 536,
+	"pid": 535,
+	"state": "open",
+	"text": "充值明细"
+}, {
+	"attributes": {
+		"url": "/lebi/tradedetail/list.do"
+	},
+	"checked": false,
+	"id": 537,
+	"pid": 535,
+	"state": "open",
+	"text": "乐币明细"
+}, {
+	"attributes": {
+		"url": "/combine_package/combine_package.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 282,
+	"pid": 2,
+	"state": "open",
+	"text": "组合套餐管理"
+}, {
+	"attributes": {
+		"url": "/lebi/rechargedetail/rechargesumlist.do"
+	},
+	"checked": false,
+	"id": 538,
+	"pid": 535,
+	"state": "open",
+	"text": "用户帐户汇总"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 539,
+	"pid": 534,
+	"state": "open",
+	"text": "商户帐户"
+}, {
+	"attributes": {
+		"url": "/lebi/tradedetail/income.do"
+	},
+	"checked": false,
+	"id": 540,
+	"pid": 539,
+	"state": "open",
+	"text": "收入明细"
+}, {
+	"attributes": {
+		"url": "/lebi/tradedetail/incomesum.do"
+	},
+	"checked": false,
+	"id": 541,
+	"pid": 539,
+	"state": "open",
+	"text": "收入汇总"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 542,
+	"pid": 534,
+	"state": "open",
+	"text": "设置"
+}, {
+	"attributes": {
+		"url": "/lebi/paypackage/list.do"
+	},
+	"checked": false,
+	"id": 543,
+	"pid": 542,
+	"state": "open",
+	"text": "币包管理"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/inner/trendPage.do"
+	},
+	"checked": false,
+	"id": 289,
+	"pid": 212,
+	"state": "open",
+	"text": "站内转化趋势"
+}, {
+	"attributes": {
+		"url": "/props/list.do"
+	},
+	"checked": false,
+	"id": 545,
+	"pid": 544,
+	"state": "open",
+	"text": "道具库管理"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/inner/channelPage.do"
+	},
+	"checked": false,
+	"id": 290,
+	"pid": 212,
+	"state": "open",
+	"text": "站内转化分布"
+}, {
+	"attributes": {
+		"url": "/props_live/list.do"
+	},
+	"checked": false,
+	"id": 546,
+	"pid": 544,
+	"state": "open",
+	"text": "直播道具运营"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 548,
+	"pid": 544,
+	"state": "open",
+	"text": "道具汇总"
+}, {
+	"attributes": {
+		"url": "/props_consume/list.do"
+	},
+	"checked": false,
+	"id": 549,
+	"pid": 548,
+	"state": "open",
+	"text": "道具消耗汇总"
+}, {
+	"attributes": {
+		"url": "/props_consume_details/list.do"
+	},
+	"checked": false,
+	"id": 550,
+	"pid": 548,
+	"state": "open",
+	"text": "道具消耗明细"
+}, {
+	"attributes": {
+		"url": "/new/share_copyright_config.do"
+	},
+	"checked": false,
+	"id": 551,
+	"pid": 573,
+	"state": "open",
+	"text": "CP基础管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 552,
+	"pid": 0,
+	"state": "open",
+	"text": "v2"
+}, {
+	"attributes": {
+		"url": "/new/v2_cp_share_config/list.do"
+	},
+	"checked": false,
+	"id": 564,
+	"pid": 573,
+	"state": "open",
+	"text": "分成配置"
+}, {
+	"attributes": {
+		"url": "/v2/product/aggPackage/list.do"
+	},
+	"checked": false,
+	"id": 566,
+	"pid": 680,
+	"state": "open",
+	"text": "权益内容包管理"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController//compare_bill.do"
+	},
+	"checked": false,
+	"id": 568,
+	"pid": 431,
+	"state": "open",
+	"text": "综合对账"
+}, {
+	"attributes": {
+		"url": "/v2/machine_card/query.do"
+	},
+	"checked": false,
+	"id": 572,
+	"pid": 109,
+	"state": "open",
+	"text": "机卡绑定查询(v2)"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 573,
+	"pid": 214,
+	"state": "open",
+	"text": "新版权分成"
+}, {
+	"attributes": {
+		"url": "/tj/cibn/view.do"
+	},
+	"checked": false,
+	"id": 574,
+	"pid": 331,
+	"state": "open",
+	"text": "国广分成对账"
+}, {
+	"attributes": {
+		"url": "/device/special_phone_upload.do"
+	},
+	"checked": false,
+	"id": 576,
+	"pid": 109,
+	"state": "open",
+	"text": "专辑设备上传"
+}, {
+	"attributes": {
+		"url": "/play_package/play_package.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 65,
+	"pid": 2,
+	"state": "open",
+	"text": "直播套餐管理"
+}, {
+	"attributes": {
+		"url": "/vipController/autorenewDetail.do"
+	},
+	"checked": false,
+	"id": 578,
+	"pid": 325,
+	"state": "open",
+	"text": "自动续费查询"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 67,
+	"pid": 5,
+	"state": "open",
+	"text": "一线客服"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 68,
+	"pid": 5,
+	"state": "open",
+	"text": "二线客服"
+}, {
+	"attributes": {
+		"url": "/vipController/device_bind_bill.do"
+	},
+	"checked": false,
+	"id": 580,
+	"pid": 8,
+	"state": "open",
+	"text": "机卡绑定"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 325,
+	"pid": 9,
+	"state": "open",
+	"text": "支付统计查询"
+}, {
+	"attributes": {
+		"url": "/vipController/device_bind_bill.do"
+	},
+	"checked": false,
+	"id": 581,
+	"pid": 580,
+	"state": "open",
+	"text": "机卡绑定对账"
+}, {
+	"attributes": {
+		"url": "vipController/liveIncome/page"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 326,
+	"pid": 325,
+	"state": "open",
+	"text": "直播统计查询"
+}, {
+	"attributes": {
+		"url": "/vipController/bind_view.do"
+	},
+	"checked": false,
+	"id": 582,
+	"pid": 580,
+	"state": "open",
+	"text": "机卡绑定数量"
+}, {
+	"attributes": {
+		"url": "/consume/consumeOrder"
+	},
+	"checked": false,
+	"id": 583,
+	"pid": 67,
+	"state": "open",
+	"text": "消费订单查询2.0"
+}, {
+	"attributes": {
+		"url": "/tj/sport/device_bind.do"
+	},
+	"checked": false,
+	"id": 584,
+	"pid": 525,
+	"state": "open",
+	"text": "体育会员订单统计"
+}, {
+	"attributes": {
+		"url": "/share_details/list.do"
+	},
+	"checked": false,
+	"id": 585,
+	"pid": 573,
+	"state": "open",
+	"text": "结算明细"
+}, {
+	"attributes": {
+		"url": "/consume/consume.do"
+	},
+	"checked": false,
+	"id": 74,
+	"pid": 67,
+	"state": "open",
+	"text": "消费查询"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 331,
+	"pid": 8,
+	"state": "open",
+	"text": "国广结算对账"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 76,
+	"pid": 3,
+	"state": "open",
+	"text": "乐卡管理"
+}, {
+	"attributes": {
+		"url": "/settlementController/publicView"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 332,
+	"pid": 331,
+	"state": "open",
+	"text": "大众版对账"
+}, {
+	"attributes": {
+		"url": "/outsideCode/show.do"
+	},
+	"checked": false,
+	"id": 588,
+	"pid": 76,
+	"state": "open",
+	"text": "站外兑换码"
+}, {
+	"attributes": {
+		"url": "/lecard/show.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 77,
+	"pid": 76,
+	"state": "open",
+	"text": "乐卡制卡"
+}, {
+	"attributes": {
+		"url": "/settlementController/operatorView"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 333,
+	"pid": 331,
+	"state": "open",
+	"text": "运营商版对账"
+}, {
+	"attributes": {
+		"url": "/operator/account.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 334,
+	"pid": 7,
+	"state": "open",
+	"text": "运营商结算规则管理"
+}, {
+	"attributes": {
+		"url": "/auto_renewal_record/auto_renewal_record.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 80,
+	"pid": 67,
+	"state": "open",
+	"text": "自动续费查询"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 592,
+	"pid": 9,
+	"state": "open",
+	"text": "风控管理"
+}, {
+	"attributes": {
+		"url": "/tj/riskManagement/blacklistQueryInput"
+	},
+	"checked": false,
+	"id": 593,
+	"pid": 592,
+	"state": "open",
+	"text": "黑名单查询"
+}, {
+	"attributes": {
+		"url": "/tj/riskManagement/orderQueryInput"
+	},
+	"checked": false,
+	"id": 594,
+	"pid": 592,
+	"state": "open",
+	"text": "订单查询"
+}, {
+	"attributes": {
+		"url": "/tj/riskManagement/blacklistTrashInput"
+	},
+	"checked": false,
+	"id": 595,
+	"pid": 592,
+	"state": "open",
+	"text": "黑名单回收站"
+}, {
+	"attributes": {
+		"url": "/pay_query/pay_query.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 84,
+	"pid": 67,
+	"state": "open",
+	"text": "用户支付查询"
+}, {
+	"attributes": {
+		"url": "/vipController/gift_vip"
+	},
+	"checked": false,
+	"id": 596,
+	"pid": 325,
+	"state": "open",
+	"text": "赠送会员统计"
+}, {
+	"attributes": {
+		"url": "/pay_phone_query/list.do"
+	},
+	"checked": false,
+	"id": 598,
+	"pid": 67,
+	"state": "open",
+	"text": "付费手机号查询"
+}, {
+	"attributes": {
+		"url": "/lecard/query"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 87,
+	"pid": 76,
+	"state": "open",
+	"text": "乐卡查询"
+}, {
+	"attributes": {
+		"url": "/machine_card_donate/machine_card_donate.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 346,
+	"pid": 4,
+	"state": "open",
+	"text": "机卡绑定赠送配置管理"
+}, {
+	"attributes": {
+		"url": "/phone_pay/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 92,
+	"pid": 68,
+	"state": "open",
+	"text": "话费支付"
+}, {
+	"attributes": {
+		"url": "lepoint_transfer/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 94,
+	"pid": 68,
+	"state": "open",
+	"text": "乐点余额转移"
+}, {
+	"attributes": {
+		"url": "/tj/mobileChannel/mcheck"
+	},
+	"checked": false,
+	"id": 606,
+	"pid": 365,
+	"state": "open",
+	"text": "移动渠道流量统计"
+}, {
+	"attributes": {
+		"url": "/onekeypay_unbind/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 95,
+	"pid": 68,
+	"state": "open",
+	"text": "取消一键支付"
+}, {
+	"attributes": {
+		"url": "/v2/activity/default.do"
+	},
+	"checked": false,
+	"id": 608,
+	"pid": 675,
+	"state": "open",
+	"text": "活动管理"
+}, {
+	"attributes": {
+		"url": "/operator/detail.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 355,
+	"pid": 7,
+	"state": "open",
+	"text": "运营商结算明细"
+}, {
+	"attributes": {
+		"url": "/lepoint_recharge/lepoint_recharge.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 100,
+	"pid": 67,
+	"state": "open",
+	"text": "乐点充值查询"
+}, {
+	"attributes": {
+		"url": "/operator//detail_stat.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 356,
+	"pid": 7,
+	"state": "open",
+	"text": "运营商对账管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 612,
+	"pid": 0,
+	"state": "open",
+	"text": "虚拟币（北美）"
+}, {
+	"attributes": {
+		"url": "/na/lebi/rechargedetail/rechargesumlist.do"
+	},
+	"checked": false,
+	"id": 613,
+	"pid": 612,
+	"state": "open",
+	"text": "用户账户汇总"
+}, {
+	"attributes": {
+		"url": "/black_list/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 102,
+	"pid": 68,
+	"state": "open",
+	"text": "黑名单"
+}, {
+	"attributes": {
+		"url": "/na/lebi/tradedetail/list.do"
+	},
+	"checked": false,
+	"id": 614,
+	"pid": 612,
+	"state": "open",
+	"text": "虚拟币明细"
+}, {
+	"attributes": {
+		"url": "/na/lebi/tradedetail/incomesum.do"
+	},
+	"checked": false,
+	"id": 615,
+	"pid": 612,
+	"state": "open",
+	"text": "商户账户汇总"
+}, {
+	"attributes": {
+		"url": "/coupon_query/coupon_query.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 104,
+	"pid": 67,
+	"state": "open",
+	"text": "代金券查询"
+}, {
+	"attributes": {
+		"url": "/na/lebi/tradedetail/income.do"
+	},
+	"checked": false,
+	"id": 616,
+	"pid": 612,
+	"state": "open",
+	"text": "商户收入明细"
+}, {
+	"attributes": {
+		"url": "/lecard/lecard_batch_freeze.do"
+	},
+	"checked": false,
+	"id": 617,
+	"pid": 76,
+	"state": "open",
+	"text": "兑换码批量冻结"
+}, {
+	"attributes": {
+		"url": "/user_lepoint/user_lepoint.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 106,
+	"pid": 67,
+	"state": "open",
+	"text": "用户账户查询"
+}, {
+	"attributes": {
+		"url": "/lecard/detail"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 108,
+	"pid": 67,
+	"state": "open",
+	"text": "付费卡详细查询"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 109,
+	"pid": 3,
+	"state": "open",
+	"text": "设备管理"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 365,
+	"pid": 9,
+	"state": "open",
+	"text": "移动渠道流量"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 621,
+	"pid": 450,
+	"state": "open",
+	"text": "v2"
+}, {
+	"attributes": {
+		"url": "/tj/mobileChannel/mchanneltrend/"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 366,
+	"pid": 365,
+	"state": "open",
+	"text": "会员渠道"
+}, {
+	"attributes": {
+		"url": "/user_comp_query/user_comp_query.do"
+	},
+	"checked": false,
+	"id": 111,
+	"pid": 67,
+	"state": "open",
+	"text": "用户综合查询"
+}, {
+	"attributes": {
+		"url": "/tj/mobileChannel/mchannel"
+	},
+	"checked": false,
+	"id": 367,
+	"pid": 365,
+	"state": "open",
+	"text": "移动渠道配置"
+}, {
+	"attributes": {
+		"url": "/tj/v2order/orderBase/index"
+	},
+	"checked": false,
+	"id": 623,
+	"pid": 621,
+	"state": "open",
+	"text": "基础数据汇总"
+}, {
+	"attributes": {
+		"url": "/tj/mobileChannel/mquery"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 368,
+	"pid": 365,
+	"state": "open",
+	"text": "渠道自助查询"
+}, {
+	"attributes": {
+		"url": "/tj/v2order/orderDetail/index"
+	},
+	"checked": false,
+	"id": 624,
+	"pid": 621,
+	"state": "open",
+	"text": "会员订单明细"
+}, {
+	"attributes": {
+		"url": "/wechart_complain/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 113,
+	"pid": 68,
+	"state": "open",
+	"text": "微信投诉订单"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 369,
+	"pid": 109,
+	"state": "open",
+	"text": "超级手机管理"
+}, {
+	"attributes": {
+		"url": "/tj/v2order/vipKeep/index"
+	},
+	"checked": false,
+	"id": 625,
+	"pid": 621,
+	"state": "open",
+	"text": "会员留存查询"
+}, {
+	"attributes": {
+		"url": "/letv_mobile/n.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 370,
+	"pid": 369,
+	"state": "open",
+	"text": "超级手机N值管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 626,
+	"pid": 544,
+	"state": "open",
+	"text": "基础设置"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 115,
+	"pid": 0,
+	"state": "open",
+	"text": "应用管理"
+}, {
+	"attributes": {
+		"url": "/props/unit/list.do"
+	},
+	"checked": false,
+	"id": 627,
+	"pid": 626,
+	"state": "open",
+	"text": "道具单位"
+}, {
+	"attributes": {
+		"url": "/hades/product/hades_product.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 116,
+	"pid": 115,
+	"state": "open",
+	"text": "商品管理"
+}, {
+	"attributes": {
+		"url": "/mall/item.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 372,
+	"pid": 6,
+	"state": "open",
+	"text": "商品管理"
+}, {
+	"attributes": {
+		"url": "/props/business/list.do"
+	},
+	"checked": false,
+	"id": 628,
+	"pid": 626,
+	"state": "open",
+	"text": "业务线管理"
+}, {
+	"attributes": {
+		"url": "/mall/order.do"
+	},
+	"checked": false,
+	"id": 373,
+	"pid": 6,
+	"state": "open",
+	"text": "移动商城消费查询"
+}, {
+	"attributes": {
+		"url": "/props/channel/list.do"
+	},
+	"checked": false,
+	"id": 629,
+	"pid": 626,
+	"state": "open",
+	"text": "渠道管理"
+}, {
+	"attributes": {
+		"url": "/vipController/freevip/page.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 374,
+	"pid": 325,
+	"state": "open",
+	"text": "免费赠送统计"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 631,
+	"pid": 544,
+	"state": "open",
+	"text": "道具库"
+}, {
+	"attributes": {
+		"url": "/hades/app/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 120,
+	"pid": 115,
+	"state": "open",
+	"text": "应用列表"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 376,
+	"pid": 4,
+	"state": "open",
+	"text": "crm管理"
+}, {
+	"attributes": {
+		"url": "/props/type/list.do"
+	},
+	"checked": false,
+	"id": 632,
+	"pid": 631,
+	"state": "open",
+	"text": "道具分类"
+}, {
+	"attributes": {
+		"url": "/recommend_config/home.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 377,
+	"pid": 376,
+	"state": "open",
+	"text": "新片推荐管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 633,
+	"pid": 544,
+	"state": "open",
+	"text": "运营平台"
+}, {
+	"attributes": {
+		"url": "/props/operateType/list.do"
+	},
+	"checked": false,
+	"id": 634,
+	"pid": 633,
+	"state": "open",
+	"text": "运营分类"
+}, {
+	"attributes": {
+		"url": "/props/starConfig/list.do"
+	},
+	"checked": false,
+	"id": 635,
+	"pid": 633,
+	"state": "open",
+	"text": "明星管理"
+}, {
+	"attributes": {
+		"url": "/props/libraryOther/list.do"
+	},
+	"checked": false,
+	"id": 636,
+	"pid": 631,
+	"state": "open",
+	"text": "第三方道具池"
+}, {
+	"attributes": {
+		"url": "/hades/payment/view_list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 125,
+	"pid": 115,
+	"state": "open",
+	"text": "商品购买记录"
+}, {
+	"attributes": {
+		"url": "/props/operate/list.do"
+	},
+	"checked": false,
+	"id": 637,
+	"pid": 633,
+	"state": "open",
+	"text": "道具配置"
+}, {
+	"attributes": {
+		"url": "/vip_transfer/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 126,
+	"pid": 68,
+	"state": "open",
+	"text": "会员服务转移"
+}, {
+	"attributes": {
+		"url": "/account/data/list.do"
+	},
+	"checked": false,
+	"id": 638,
+	"pid": 573,
+	"state": "open",
+	"text": "新结算管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 639,
+	"pid": 573,
+	"state": "open",
+	"text": "CP统计数据"
+}, {
+	"attributes": {
+		"url": "/dataStat/play/list.do"
+	},
+	"checked": false,
+	"id": 640,
+	"pid": 639,
+	"state": "open",
+	"text": "播放统计"
+}, {
+	"attributes": {
+		"url": "/dataStat/cpm/list.do"
+	},
+	"checked": false,
+	"id": 641,
+	"pid": 639,
+	"state": "open",
+	"text": "CPM统计"
+}, {
+	"attributes": {
+		"url": "/dataStat/order/list.do"
+	},
+	"checked": false,
+	"id": 642,
+	"pid": 639,
+	"state": "open",
+	"text": "会员订单统计"
+}, {
+	"attributes": {
+		"url": "/dataStat/business/list.do"
+	},
+	"checked": false,
+	"id": 643,
+	"pid": 639,
+	"state": "open",
+	"text": "业务订单统计"
+}, {
+	"attributes": {
+		"url": "/rebate/index.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 388,
+	"pid": 4,
+	"state": "open",
+	"text": "连续包月配置"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 644,
+	"pid": 9,
+	"state": "open",
+	"text": "支付信息查询"
+}, {
+	"attributes": {
+		"url": "/device/query_user_split.do"
+	},
+	"checked": false,
+	"id": 389,
+	"pid": 109,
+	"state": "open",
+	"text": "机卡会员时长拆分"
+}, {
+	"attributes": {
+		"url": "/tj/payinfo/orderform/view.do"
+	},
+	"checked": false,
+	"id": 645,
+	"pid": 644,
+	"state": "open",
+	"text": "会员支付查询"
+}, {
+	"attributes": {
+		"url": "/tj/payinfo/order/view.do"
+	},
+	"checked": false,
+	"id": 646,
+	"pid": 644,
+	"state": "open",
+	"text": "会员订单查询"
+}, {
+	"attributes": {
+		"url": "/tj/payinfo/payment/view.do"
+	},
+	"checked": false,
+	"id": 647,
+	"pid": 644,
+	"state": "open",
+	"text": "支付订单查询"
+}, {
+	"attributes": {
+		"url": "/tj/payinfo/refund/view.do"
+	},
+	"checked": false,
+	"id": 648,
+	"pid": 644,
+	"state": "open",
+	"text": "退款订单查询"
+}, {
+	"attributes": {
+		"url": "/vipController/autorenewInput"
+	},
+	"checked": false,
+	"id": 393,
+	"pid": 325,
+	"state": "open",
+	"text": "自动续费统计"
+}, {
+	"attributes": {
+		"url": "/v2/coupon/header/list"
+	},
+	"checked": false,
+	"id": 649,
+	"pid": 651,
+	"state": "open",
+	"text": "代金券管理"
+}, {
+	"attributes": {
+		"url": "/vipController/oneKeyContracttj"
+	},
+	"checked": false,
+	"id": 394,
+	"pid": 325,
+	"state": "open",
+	"text": "一键支付统计"
+}, {
+	"attributes": {
+		"url": "/v2/coupon/item/list"
+	},
+	"checked": false,
+	"id": 650,
+	"pid": 651,
+	"state": "open",
+	"text": "代金券查询"
+}, {
+	"attributes": {
+		"url": "/renew_reminder_pop/renew_reminder_pop.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 139,
+	"pid": 4,
+	"state": "open",
+	"text": "续费提醒弹窗管理"
+}, {
+	"attributes": {
+		"url": "/phoneFeePayController/statpage"
+	},
+	"checked": false,
+	"id": 395,
+	"pid": 325,
+	"state": "open",
+	"text": "话费支付统计"
+}, {
+	"attributes": {
+		"url": "/vipController/lepointConsum"
+	},
+	"checked": false,
+	"id": 396,
+	"pid": 325,
+	"state": "open",
+	"text": "乐点充值统计"
+}, {
+	"attributes": {
+		"url": "/v2/product/template/list.do"
+	},
+	"checked": false,
+	"id": 652,
+	"pid": 675,
+	"state": "open",
+	"text": "自动续费短信模板"
+}, {
+	"attributes": {
+		"url": "/lepoint_return/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 141,
+	"pid": 68,
+	"state": "open",
+	"text": "退还乐点"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 653,
+	"pid": 0,
+	"state": "open",
+	"text": "后台任务"
+}, {
+	"attributes": {
+		"url": "/vipController/popup/page.do"
+	},
+	"checked": false,
+	"id": 398,
+	"pid": 325,
+	"state": "open",
+	"text": "推荐弹窗统计"
+}, {
+	"attributes": {
+		"url": "/customTasks/index"
+	},
+	"checked": false,
+	"id": 654,
+	"pid": 653,
+	"state": "open",
+	"text": "后台任务查询"
+}, {
+	"attributes": {
+		"url": "/user_threshold/user_threshold.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 143,
+	"pid": 4,
+	"state": "open",
+	"text": "用户阀值"
+}, {
+	"attributes": {
+		"url": "/activity_success/activity_success.do"
+	},
+	"checked": false,
+	"id": 399,
+	"pid": 4,
+	"state": "open",
+	"text": "活动成功页配置"
+}, {
+	"attributes": {
+		"url": "/channelAssociation/list"
+	},
+	"checked": false,
+	"id": 655,
+	"pid": 4,
+	"state": "open",
+	"text": "合作公司管理"
+}, {
+	"attributes": {
+		"url": "/tj/vip2/mix.do"
+	},
+	"checked": false,
+	"id": 656,
+	"pid": 621,
+	"state": "open",
+	"text": "混合支付统计"
+}, {
+	"attributes": {
+		"url": "/movie_spread/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 145,
+	"pid": 4,
+	"state": "open",
+	"text": "付费影片推广"
+}, {
+	"attributes": {
+		"url": "/tj/hookstat/payFlow/index"
+	},
+	"checked": false,
+	"id": 657,
+	"pid": 450,
+	"state": "open",
+	"text": "支付流程转化"
+}, {
+	"attributes": {
+		"url": "/time_synchronization_log/list.do"
+	},
+	"checked": false,
+	"id": 658,
+	"pid": 109,
+	"state": "open",
+	"text": "时长同步日志查询（v2）"
+}, {
+	"attributes": {
+		"url": "/v2_user_comp_query/user_comp_query.do"
+	},
+	"checked": false,
+	"id": 659,
+	"pid": 67,
+	"state": "open",
+	"text": "用户综合查询2.0"
+}, {
+	"attributes": {
+		"url": "/v2/orderSrcChannel/list"
+	},
+	"checked": false,
+	"id": 660,
+	"pid": 675,
+	"state": "open",
+	"text": "订单来源渠道管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 661,
+	"pid": 9,
+	"state": "open",
+	"text": "测试用户管理"
+}, {
+	"attributes": {
+		"url": "/vipController/userTest/index"
+	},
+	"checked": false,
+	"id": 662,
+	"pid": 661,
+	"state": "open",
+	"text": "测试用户管理"
+}, {
+	"attributes": {
+		"url": "/device/lecardquery.do"
+	},
+	"checked": false,
+	"id": 407,
+	"pid": 369,
+	"state": "open",
+	"text": "线下卡兑换查询"
+}, {
+	"attributes": {
+		"url": "/repair/list.do"
+	},
+	"checked": false,
+	"id": 663,
+	"pid": 573,
+	"state": "open",
+	"text": "数据修复"
+}, {
+	"attributes": {
+		"url": "/pay_package_pre/pay_package_pre.do"
+	},
+	"checked": false,
+	"id": 409,
+	"pid": 2,
+	"state": "open",
+	"text": "支付前置套餐管理"
+}, {
+	"attributes": {
+		"url": "/red_envelope_cfg/red_envelope_cfg.do"
+	},
+	"checked": false,
+	"id": 415,
+	"pid": 4,
+	"state": "open",
+	"text": "红包配置管理"
+}, {
+	"attributes": {
+		"url": "/mini/order/tolist"
+	},
+	"checked": false,
+	"id": 674,
+	"pid": 667,
+	"state": "open",
+	"text": "商品订单查询"
+}, {
+	"attributes": {
+		"url": "/lecard/info_batch.do"
+	},
+	"checked": false,
+	"id": 419,
+	"pid": 76,
+	"state": "open",
+	"text": "乐卡信息批量导出"
+}, {
+	"attributes": {
+		"url": "/tv_nonmember_guide/tv_nonmember_guide.do"
+	},
+	"checked": false,
+	"id": 420,
+	"pid": 376,
+	"state": "open",
+	"text": "TV端非会员到收银台引导页"
+}, {
+	"attributes": {
+		"url": "/v2/activity_success_cfg/default.do"
+	},
+	"checked": false,
+	"id": 676,
+	"pid": 675,
+	"state": "open",
+	"text": "支付成功页活动配置"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 166,
+	"pid": 4,
+	"state": "open",
+	"text": "乐卡批量充值与兑换"
+}, {
+	"attributes": {
+		"url": "/pgc_channel"
+	},
+	"checked": false,
+	"id": 678,
+	"pid": 214,
+	"state": "open",
+	"text": "PGC渠道过滤"
+}, {
+	"attributes": {
+		"url": "/op/lecard/recharge.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 167,
+	"pid": 166,
+	"state": "open",
+	"text": "充值码批量充值"
+}, {
+	"attributes": {
+		"url": "/op/lecard/exchange.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 168,
+	"pid": 166,
+	"state": "open",
+	"text": "兑换码批量兑换"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 427,
+	"pid": 9,
+	"state": "open",
+	"text": "超级手机统计"
+}, {
+	"attributes": {
+		"url": "/tj/letvPhoneStat/phoneType/page"
+	},
+	"checked": false,
+	"id": 428,
+	"pid": 427,
+	"state": "open",
+	"text": "会员机年数分布"
+}, {
+	"attributes": {
+		"url": "/tj/expiredStat/page"
+	},
+	"checked": false,
+	"id": 430,
+	"pid": 210,
+	"state": "open",
+	"text": "到期会员UID"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 431,
+	"pid": 8,
+	"state": "open",
+	"text": "财务对账"
+}, {
+	"attributes": {
+		"url": "/tj/balanceAccount/view"
+	},
+	"checked": false,
+	"id": 432,
+	"pid": 431,
+	"state": "open",
+	"text": "会员对账"
+}, {
+	"attributes": {
+		"url": "/tj/letvPhoneStat/activeStat/page"
+	},
+	"checked": false,
+	"id": 433,
+	"pid": 427,
+	"state": "open",
+	"text": "激活数据统计"
+}, {
+	"attributes": {
+		"url": "/tj/letvPhoneStat/bindTV/page"
+	},
+	"checked": false,
+	"id": 434,
+	"pid": 427,
+	"state": "open",
+	"text": "领取数据统计"
+}, {
+	"attributes": {
+		"url": "/tj/letvPhoneStat/jikaBind/page"
+	},
+	"checked": false,
+	"id": 435,
+	"pid": 325,
+	"state": "open",
+	"text": "机卡绑定统计"
+}, {
+	"attributes": {
+		"url": "/mini/vip/list"
+	},
+	"checked": false,
+	"id": 694,
+	"pid": 667,
+	"state": "open",
+	"text": "第三方时长查询"
+}, {
+	"attributes": {
+		"url": "/reminder_pop.do"
+	},
+	"checked": false,
+	"id": 439,
+	"pid": 4,
+	"state": "open",
+	"text": "续费提醒弹窗TV"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/tvPage/page.do"
+	},
+	"checked": false,
+	"id": 443,
+	"pid": 212,
+	"state": "open",
+	"text": "TV页面明细"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 446,
+	"pid": 9,
+	"state": "open",
+	"text": "活动统计"
+}, {
+	"attributes": {
+		"url": "/tj/activity/page/view"
+	},
+	"checked": false,
+	"id": 447,
+	"pid": 446,
+	"state": "open",
+	"text": "活动页流量查询"
+}, {
+	"attributes": {
+		"url": "/activity/activity.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 192,
+	"pid": 4,
+	"state": "open",
+	"text": "活动管理"
+}, {
+	"attributes": {
+		"url": "/tj/activity/order/view"
+	},
+	"checked": false,
+	"id": 448,
+	"pid": 446,
+	"state": "open",
+	"text": "活动订单查询"
+}, {
+	"attributes": {
+		"url": "/tj/movieIncome/outerMovieIncome"
+	},
+	"checked": false,
+	"id": 449,
+	"pid": 211,
+	"state": "open",
+	"text": "影片站外渠道收入"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 194,
+	"pid": 4,
+	"state": "open",
+	"text": "院线抽奖管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 450,
+	"pid": 0,
+	"state": "open",
+	"text": "新统计报表"
+}, {
+	"attributes": {
+		"url": "/lotteryconf/lottery/getpanel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 195,
+	"pid": 194,
+	"state": "open",
+	"text": "抽奖活动管理"
+}, {
+	"attributes": {
+		"url": "/tj/statzb/vip_index"
+	},
+	"checked": false,
+	"id": 451,
+	"pid": 450,
+	"state": "open",
+	"text": "数据概况"
+}, {
+	"attributes": {
+		"url": "/user_log/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 196,
+	"pid": 1,
+	"state": "open",
+	"text": "操作日志管理"
+}, {
+	"attributes": {
+		"url": "/tj/activity/directorder/view"
+	},
+	"checked": false,
+	"id": 452,
+	"pid": 446,
+	"state": "open",
+	"text": "活动页直接订单查询"
+}, {
+	"attributes": {
+		"url": "/donate_vip_mac/donate_vip_mac.do"
+	},
+	"checked": false,
+	"id": 453,
+	"pid": 4,
+	"state": "open",
+	"text": "酷派mac管理"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/tvChannelPage/page.do"
+	},
+	"checked": false,
+	"id": 457,
+	"pid": 212,
+	"state": "open",
+	"text": "TV入口页面"
+}, {
+	"attributes": {
+		"url": "/lotteryconf/award/getpanel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 202,
+	"pid": 194,
+	"state": "open",
+	"text": "奖项管理"
+}, {
+	"attributes": {
+		"url": "/pay_play_delivery/pay_play_delivery.do"
+	},
+	"checked": false,
+	"id": 458,
+	"pid": 4,
+	"state": "open",
+	"text": "运营位定投管理"
+}, {
+	"attributes": {
+		"url": "/lotteryconf/awardconf/getpanel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 203,
+	"pid": 194,
+	"state": "open",
+	"text": "奖项奖品配置"
+}, {
+	"attributes": {
+		"url": "/lotteryconf/wininfo/getpanel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 204,
+	"pid": 194,
+	"state": "open",
+	"text": "中奖信息"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 205,
+	"pid": 194,
+	"state": "open",
+	"text": "奖品管理"
+}, {
+	"attributes": {
+		"url": "/lotteryconf/prize/getpanel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 206,
+	"pid": 205,
+	"state": "open",
+	"text": "奖品查询"
+}, {
+	"attributes": {
+		"url": "/lotteryconf/prize/censusPrizePanel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 207,
+	"pid": 205,
+	"state": "open",
+	"text": "奖品统计"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 208,
+	"pid": 9,
+	"state": "open",
+	"text": "用户数据"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 209,
+	"pid": 9,
+	"state": "open",
+	"text": "收入数据"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 210,
+	"pid": 9,
+	"state": "open",
+	"text": "导出会员数据"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/tvsdk/page"
+	},
+	"checked": false,
+	"id": 466,
+	"pid": 325,
+	"state": "open",
+	"text": "演唱会SDK统计"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 211,
+	"pid": 9,
+	"state": "open",
+	"text": "影片收入"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 212,
+	"pid": 9,
+	"state": "open",
+	"text": "渠道流量"
+}, {
+	"attributes": {
+		"url": "/yeepay/bind.do"
+	},
+	"checked": false,
+	"id": 468,
+	"pid": 68,
+	"state": "open",
+	"text": "易宝信用卡"
+}, {
+	"attributes": {
+		"url": "/vipController/vipIncomeQuery.do"
+	},
+	"checked": false,
+	"id": 213,
+	"pid": 209,
+	"state": "open",
+	"text": "会员收入趋势"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 214,
+	"pid": 0,
+	"state": "open",
+	"text": "版权分成"
+}, {
+	"attributes": {
+		"url": "/tj/statzb/vip_activity/view"
+	},
+	"checked": false,
+	"id": 470,
+	"pid": 450,
+	"state": "open",
+	"text": "会员活跃分析"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 215,
+	"pid": 214,
+	"state": "open",
+	"text": "权限管理"
+}, {
+	"attributes": {
+		"url": "/movie_ticket/manager.do"
+	},
+	"checked": false,
+	"id": 471,
+	"pid": 4,
+	"state": "open",
+	"text": "赠送观影卷规则配置"
+}, {
+	"attributes": {
+		"url": "/share_role/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 216,
+	"pid": 215,
+	"state": "open",
+	"text": "分成角色管理"
+}, {
+	"attributes": {
+		"url": "/share_user/list.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 217,
+	"pid": 215,
+	"state": "open",
+	"text": "分成用户管理"
+}, {
+	"attributes": {
+		"url": "/vipController/vipAllIncomeQuery.do"
+	},
+	"checked": false,
+	"id": 218,
+	"pid": 209,
+	"state": "open",
+	"text": "整体收入趋势"
+}, {
+	"attributes": {
+		"url": "/vipController/paytypeStat"
+	},
+	"checked": false,
+	"id": 474,
+	"pid": 325,
+	"state": "open",
+	"text": "支付方式统计"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/groupPayOrderPage"
+	},
+	"checked": false,
+	"id": 475,
+	"pid": 8,
+	"state": "open",
+	"text": "财务结算导出"
+}, {
+	"attributes": {
+		"url": "/vip_prerogative.do"
+	},
+	"checked": false,
+	"id": 476,
+	"pid": 4,
+	"state": "open",
+	"text": "会员等级管理"
+}, {
+	"attributes": {
+		"url": "/vipController/vipDirectQuery.do"
+	},
+	"checked": false,
+	"id": 221,
+	"pid": 208,
+	"state": "open",
+	"text": "整体用户趋势"
+}, {
+	"attributes": {
+		"url": "payment_config/payment_config.do"
+	},
+	"checked": false,
+	"id": 477,
+	"pid": 4,
+	"state": "open",
+	"text": "付费方式配置管理"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/payStatPage"
+	},
+	"checked": false,
+	"id": 478,
+	"pid": 8,
+	"state": "open",
+	"text": "日实时支付统计"
+}, {
+	"attributes": {
+		"url": "/vipController/userQuery.do"
+	},
+	"checked": false,
+	"id": 223,
+	"pid": 208,
+	"state": "open",
+	"text": "会员帐号趋势"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/pay_query.do"
+	},
+	"checked": false,
+	"id": 481,
+	"pid": 8,
+	"state": "open",
+	"text": "集团订单查询"
+}, {
+	"attributes": {
+		"url": "/vipController/query.do"
+	},
+	"checked": false,
+	"id": 226,
+	"pid": 208,
+	"state": "open",
+	"text": "会员订单趋势"
+}, {
+	"attributes": {
+		"url": "/tj/statzb/vip_retention_cvuv/view"
+	},
+	"checked": false,
+	"id": 482,
+	"pid": 450,
+	"state": "open",
+	"text": "留存会员分析"
+}, {
+	"attributes": {
+		"url": "/vipController/vipXFLQuery.do"
+	},
+	"checked": false,
+	"id": 227,
+	"pid": 208,
+	"state": "open",
+	"text": "会员续费率趋势"
+}, {
+	"attributes": {
+		"url": "/tj/statzb/vip_retention_user/view"
+	},
+	"checked": false,
+	"id": 484,
+	"pid": 450,
+	"state": "open",
+	"text": "会员活跃频次"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/refund_query.do"
+	},
+	"checked": false,
+	"id": 485,
+	"pid": 8,
+	"state": "open",
+	"text": "集团退款查询"
+}, {
+	"attributes": {
+		"url": "/vipController/getZdyDetail.do"
+	},
+	"checked": false,
+	"id": 232,
+	"pid": 210,
+	"state": "open",
+	"text": "订单明细查询"
+}, {
+	"attributes": {
+		"url": "/tj/statzb/vip_retention_order_cvuv/view"
+	},
+	"checked": false,
+	"id": 488,
+	"pid": 450,
+	"state": "open",
+	"text": "每日会员留存分析"
+}, {
+	"attributes": {
+		"url": "/vipController/getDxExpired.do"
+	},
+	"checked": false,
+	"id": 233,
+	"pid": 210,
+	"state": "open",
+	"text": "指定用户到期"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 489,
+	"pid": 4,
+	"state": "open",
+	"text": "渠道返利"
+}, {
+	"attributes": {
+		"url": "/vipController/getUserDetail.do"
+	},
+	"checked": false,
+	"id": 234,
+	"pid": 210,
+	"state": "open",
+	"text": "指定用户订单明细"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 490,
+	"pid": 489,
+	"state": "open",
+	"text": "渠道管理"
+}, {
+	"attributes": {
+		"url": "/tj/movieIncome/incomeDetail"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 235,
+	"pid": 211,
+	"state": "open",
+	"text": "影片收入明细"
+}, {
+	"attributes": {
+		"url": "/rebate/channel/type.do"
+	},
+	"checked": false,
+	"id": 491,
+	"pid": 490,
+	"state": "open",
+	"text": "渠道类型配置"
+}, {
+	"attributes": {
+		"url": "/tj/movieIncome/incomeTrend"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 236,
+	"pid": 211,
+	"state": "open",
+	"text": "影片收入趋势"
+}, {
+	"attributes": {
+		"url": "/rebate/channel.do"
+	},
+	"checked": false,
+	"id": 492,
+	"pid": 490,
+	"state": "open",
+	"text": "渠道配置"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 493,
+	"pid": 489,
+	"state": "open",
+	"text": "销售管理"
+}, {
+	"attributes": {
+		"url": "/rebate/channel/device.do"
+	},
+	"checked": false,
+	"id": 494,
+	"pid": 493,
+	"state": "open",
+	"text": "设备销售"
+}, {
+	"attributes": {
+		"url": "/rebate/settlement.do"
+	},
+	"checked": false,
+	"id": 495,
+	"pid": 489,
+	"state": "open",
+	"text": "结算规则"
+}, {
+	"attributes": {
+		"url": "/gw_account_bind.do"
+	},
+	"checked": false,
+	"id": 496,
+	"pid": 68,
+	"state": "open",
+	"text": "新商城卡号解绑"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 497,
+	"pid": 4,
+	"state": "open",
+	"text": "电影频道"
+}, {
+	"attributes": {
+		"url": "/movie_want/sms.do"
+	},
+	"checked": false,
+	"id": 498,
+	"pid": 497,
+	"state": "open",
+	"text": "预约影片短信设置"
+}, {
+	"attributes": {
+		"url": "/movie_want/sms/log.do"
+	},
+	"checked": false,
+	"id": 499,
+	"pid": 497,
+	"state": "open",
+	"text": "预约短信查询"
+}, {
+	"attributes": {
+		"url": "/share_copyright_config.do"
+	},
+	"checked": false,
+	"id": 500,
+	"pid": 214,
+	"state": "open",
+	"text": "版权方管理"
+}, {
+	"attributes": {
+		"url": "/movie_channel/movie_channel.do"
+	},
+	"checked": false,
+	"id": 501,
+	"pid": 2,
+	"state": "open",
+	"text": "频道管理"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/outside/channelPage.do"
+	},
+	"checked": false,
+	"id": 247,
+	"pid": 212,
+	"state": "open",
+	"text": "站外转化分布"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/outside/trendPage.do"
+	},
+	"checked": false,
+	"id": 248,
+	"pid": 212,
+	"state": "open",
+	"text": "站外转化趋势"
+}, {
+	"attributes": {
+		"url": "/tj/channelStat/channel/manage.do"
+	},
+	"checked": false,
+	"id": 249,
+	"pid": 212,
+	"state": "open",
+	"text": "渠道配置"
+}, {
+	"attributes": {
+		"url": "/tj/jtStatController/balanceAccout.do?companyId=C003"
+	},
+	"checked": false,
+	"id": 508,
+	"pid": 431,
+	"state": "open",
+	"text": "商城财务对账"
+}, {
+	"attributes": {
+		"url": "/vipController/channelDonateController/page"
+	},
+	"checked": false,
+	"id": 510,
+	"pid": 9,
+	"state": "open",
+	"text": "酷派合作"
+}, {
+	"attributes": {
+		"url": "/weixin/resource.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 255,
+	"pid": 254,
+	"state": "open",
+	"text": "图文信息管理"
+}, {
+	"attributes": {
+		"url": "/vipController/unexpiredUser.do"
+	},
+	"checked": false,
+	"id": 514,
+	"pid": 208,
+	"state": "open",
+	"text": "会员留存趋势"
+}, {
+	"attributes": {
+		"url": ""
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 7,
+	"pid": 0,
+	"state": "open",
+	"text": "运营商管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 544,
+	"pid": 0,
+	"state": "open",
+	"text": "道具系统"
+}, {
+	"attributes": {
+		"url": "/free_vip/free_vip.do"
+	},
+	"checked": false,
+	"id": 69,
+	"pid": 4,
+	"state": "open",
+	"text": "开通免费会员"
+}, {
+	"attributes": {
+		"url": "/free_vip/channel.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 361,
+	"pid": 4,
+	"state": "open",
+	"text": "赠送渠道管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 651,
+	"pid": 675,
+	"state": "open",
+	"text": "代金券管理"
+}, {
+	"attributes": {
+		"url": "/mini/order/to_export"
+	},
+	"checked": false,
+	"id": 697,
+	"pid": 667,
+	"state": "open",
+	"text": "财务对账导出"
+}, {
+	"attributes": {
+		"url": "/coupon_template/index.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 90,
+	"pid": 284,
+	"state": "open",
+	"text": "代金券模版管理"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 675,
+	"pid": 552,
+	"state": "open",
+	"text": "运营工具"
+}, {
+	"attributes": {
+		"url": "/consume/consumeOrder"
+	},
+	"checked": false,
+	"id": 688,
+	"pid": 687,
+	"state": "open",
+	"text": "订单查询"
+}, {
+	"attributes": {},
+	"checked": false,
+	"id": 687,
+	"pid": 552,
+	"state": "open",
+	"text": "客服工具"
+}, {
+	"attributes": {
+		"url": "/hades/payment/payment_succ_view.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 362,
+	"pid": 115,
+	"state": "open",
+	"text": "支付成功率查询"
+}, {
+	"attributes": {
+		"url": "/hades/payment/payment_app_top.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 363,
+	"pid": 115,
+	"state": "open",
+	"text": "应用热度排行"
+}, {
+	"attributes": {
+		"url": "/hades/payment/payment_product_top.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 364,
+	"pid": 115,
+	"state": "open",
+	"text": "商品热度排行"
+}, {
+	"attributes": {
+		"url": "/time_synchronization_log/list.do"
+	},
+	"checked": false,
+	"id": 693,
+	"pid": 687,
+	"state": "open",
+	"text": "机卡同步时长日志查询"
+}, {
+	"attributes": {
+		"url": "/tj/orderPaySuccController/list"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 237,
+	"pid": 325,
+	"state": "open",
+	"text": "订单支付成功率查询"
+}, {
+	"attributes": {
+		"url": "/movie_charge/movie_charge.do"
+	},
+	"checked": false,
+	"id": 686,
+	"pid": 681,
+	"state": "open",
+	"text": "点播价格管理"
+}, {
+	"attributes": {
+		"url": "/tj/orderPaySuccController/ratepage"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 238,
+	"pid": 325,
+	"state": "open",
+	"text": "订单转化率查询"
+}, {
+	"attributes": {
+		"url": "v2/machine_card/query.do"
+	},
+	"checked": false,
+	"id": 692,
+	"pid": 687,
+	"state": "open",
+	"text": "机卡设备查询"
+}, {
+	"attributes": {
+		"url": "/coupon_generate_task/index.do"
+	},
+	"checked": false,
+	"iconCls": "",
+	"id": 91,
+	"pid": 284,
+	"state": "open",
+	"text": "代金券兑换码管理"
+}]

@@ -1,0 +1,93 @@
+一、treegrid组件主要特性有：
+    1、数据源支持静态数据集和动态后台加载两种方式。
+    2、节点实时统计子节点个数
+    3、显示checkbox控件列，checkbox支持单选或复选，复选时可级联选中所有父节点或子节点。（可选）
+    4、实时计算行序号
+    5、支持列值汇总，汇总函数包括：min 最小值、max 最大值、sum 求和、avg 平均值
+    6、单元格内容支持自定义
+    7、支持展开或折叠全部节点
+    8、支持显示数据行右键菜单
+    9、支持静态数据集更新（根据查询返回结果更新组件数据集）
+ 
+二、组件相关类：
+    TreeGrid(_target, options)
+        _target： 显示组件的目标容器，一般是用div标签
+       options： json格式的数据，组件所需要的数据都通过该参数提供。
+ 
+    TreeGridItem类
+        container： 组件的目标容器
+        treeGrid： 组件实例对象
+        id： 数据行id
+        pid：数据行父id
+        index：数据行的索引值
+        level：节点所在的层级
+        data：数据行的json数据对象
+ 
+三、使用方法：
+Html代码  收藏代码
+<div id="div1"></div>  
+<script language="javascript">  
+    var treeGrid = jQuery("#div1").showTreeGrid(options);  
+</script>  
+ 
+四、options参数详解：
+    width:  组件显示的宽度，默认值为 100%
+    align:  单元格内容的对齐方式，默认值为 left
+    open_icon:  节点展开时的图片，默认值为 images/tgopen.gif
+    close_icon:  节点折叠时的图片，默认值为 images/tgclose.gif
+    leaf_icon:  叶节点的图片，默认值为 images/tgleaf.gif
+    loading_icon:  节点动态加载数据时显示的图片，默认值为 images/tgleaf.gif
+    id_field:  数据行主键字段名，动态加载数据时必须赋值
+    chk_show:  是否显示checkbox控件列，默认值为false
+    chk_cascade_select_children:  是否级联选中子节点，默认值为false
+    chk_cascade_select_parent:  是否级联选中父节点，默认值为false
+    chk_only_selected:  是否只能单选checkbox，默认值为false
+    columns: 值为数组，数组元素为json对象。定义数据列相关信息
+        数组元素的属性：
+            title： 数据列的标题
+            field： 列数据字段，对应数据集的字段名
+            align： 列数据的对齐方式，默认值为left
+            width：列的宽度
+            defaultValue： 列数据的默认值
+            fieldCal： 列值是否进行汇总，默认值为false
+            calStyle： 列值汇总方式，可选值有sum、min、max、avg，默认值为sum
+            digit： 列汇总值的小数点位数，默认为保留2位小数点
+            handler：自定义函数的名称，用于定义单元格的个性化内容
+                    方法参数：
+                        trid： 数据行id
+                        fieldValue： 单元格字段值
+                        rowdata：所在行的json格式的数据对象
+                        colMeta：当前数据列的元数据信息，即由columns参数定义的信息。
+    dataurl: 动态加载数据时的URL地址。数据行的主键值以参数名parent_id传递到系统后台。
+    dataset: 值为数组，数组元素为json对象。定义静态数据集
+        children：值为数组，数组元素为json对象。定义数据元素的下级节点的静态数据集
+    show_summary:  是否显示列值汇总行，默认值为false
+    onClickRow： 单击数据行触发的事件
+            方法参数：
+                id： 数据行id
+                index：数据行的索引值
+                data：所在行对应的json格式的数据对象
+    onDblClickRow： 双击数据行触发的事件
+            方法参数：
+                id： 数据行id
+                index：数据行的索引值
+                data：所在行对应的json格式的数据对象
+    menus： 值为数组，数组元素为json对象。用于定义数据行右键菜单信息
+        数组元素的属性：
+            title： 菜单名称
+            url： 点击菜单触发的url地址，地址后可带参数，参数值支持动态绑定。比如 http://www.163.com?id=#id#&orgCode=#orgCode# ，id参数值和orgCode参数值 动态绑定
+            target： url地址显示页面的目标容器，值有_blank、_self等
+ 
+五、组件实例的方法
+    show： 在目标容器中显示组件。
+    expandAll： 展开所有节点
+    collapseAll： 折叠所有节点
+    getDataPool： 获取数据池对象，池中的每个数据项的key为行id，value为json格式的数据对象
+    getRowData(trid)：根据行id获取对应的json数据对象
+    getSelectedRowLevel： 获取选中数据行所在的层级。当checkbox单选模式时可用。
+    getSelected：获取选中行相关信息，返回TreeGridItem对象。当checkbox单选模式时可用。
+    getParent：获取选中行的父节点相关信息，返回TreeGridItem对象。当checkbox单选模式时可用。
+    getChildren：获取选中行的最近一级的所有子节点，返回TreeGridItem对象数组。当checkbox单选模式时可用。
+    getSelections：获取所有选中行的相关信息，返回TreeGridItem对象数组。
+    getSelectedCheckboxValues：获取所有选中checkbox的值，值之间用逗号分隔。值来源于id_field参数所指定的字段的值。比如id_field值为id，则checkbox的值为id字段值。
+    setDataset(dataset) ：设置组件的静态数据集。

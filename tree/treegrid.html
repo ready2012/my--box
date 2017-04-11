@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>TreeGrid-3.0</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="Generator" CONTENT="EditPlus">
+<link type="text/css" rel="stylesheet" href="css/public.css"/>
+<link type="text/css" rel="stylesheet" href="css/treegrid-3.0.css"/>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/jquery.min-1.11.3.js"></script>
+<script type="text/javascript" src="js/treegrid-3.0.js"></script>
+</HEAD>
+
+<BODY>
+	<input type="button" value="展开所有节点" onclick="_expandAll()">
+	<input type="button" value="折叠 所有节点" onclick="_collapseAll()">
+	<input type="button" value="刷新" onclick="_refresh()">
+
+	<br><br><textarea id="currentRow" rows="4" cols="100"></textarea>
+	<br><br><div id="div1" style="width:850px;"></div>
+
+
+	<script language="javascript">
+		var onDblClickRow = function(id, index, data){
+			jQuery("#currentRow").val("onDblClickRow: " + id + "," + index + "," + data.orgName);
+		}
+		
+		var config = {
+			chk_show:true,
+			chk_node_next:false,
+			chk_cascade_select_children: true,
+			chk_cascade_select_parent: true,
+			"id_field": "id",
+			"columns":[
+				{"title": "组织名称", "field": "orgName"},
+				{"title": "组织编号", "field": "orgCode", "align": "center", "width": "60"},
+				{"title": "操作人", "field": "operator", "align": "center", "width": "50"},
+				{"title": "总人数", "field": "count", "align": "center", "width": "50", "defaultValue": "0", "fieldCal": true, "calStyle": "sum"},
+				{"title": "薪水", "field": "salary", "align": "center", "width": "50", "defaultValue": "0.0", "fieldCal": true, "calStyle": "avg", digit: 2},
+				{"title": "操作日期", "field": "operateTime", "align": "center", "width": "70"},
+				{"title": "进度", "width": "100", "handler": "jdHandler"},
+				{"title": "操作", "width": "100", "handler": "operateHandler", "align": "center"}
+			],
+			"dataset":[
+				{"id": 1,"orgName": "城区分公司", "orgCode": "CQ", "operator": "cjm", "count": 200, "salary": 3000.50, "children":[
+					{"id": 5,"orgName": "城区卡品分销中心", "count": 100, "salary": 2000.00},
+					{"id": 6,"orgName": "先锋服务厅", "count": 50, "salary": 1000.00, "children":[
+						{"id": 7,"orgName": "chlid1", "count": 30, "salary": 1000.00},
+						{"id": 8,"orgName": "chlid2", "count": 20, "salary": 900.00},
+						{"id": 9,"orgName": "chlid3", "count": 20, "salary": 800.00, "children": [
+							{"id": 10,"orgName": "chlid3-1", "count": 10, "salary": 500.00},
+							{"id": 11,"orgName": "chlid3-2", "count": 10, "salary": 500.00},
+							{"id": 12,"orgName": "chlid3-3", "count": 10, "salary": 500.00},
+							{"id": 13,"orgName": "chlid3-4", "count": 10, "salary": 500.00}
+						]}
+					]},
+					{"id": 14,"orgName": "半环服务厅", "count": 10, "salary": 500.00}
+				]},
+				{"id": 2,"orgName": "清新分公司", "orgCode": "QX", "operator": "", "count": 10, "salary": 500.00},
+				{"id": 3,"orgName": "英德分公司", "orgCode": "YD", "operator": "", "count": 10, "salary": 500.00},
+				{"id": 4,"orgName": "佛冈分公司", "orgCode": "FG", "operator": "", "count": 10, "salary": 500.00}
+			],
+			
+			onClickRow: function(id, index, data){
+				jQuery("#currentRow").val("onClickRow: " + id + "," + index + "," + data.orgName);
+			},
+			onDblClickRow: onDblClickRow
+		};
+		
+		function jdHandler(trid, fieldValue, rowdata, colMeta){
+			var n = Math.floor(Math.random()*(100-1))+1;
+			return "<div style=\"width:" + n + ";background:red;height:100%;\">" + n + "</div>";
+		}
+		
+		function operateHandler(trid, fieldValue, rowdata, colMeta){
+			var s = "";
+			s += "<a  href='/sd' style='color:blue'>查看</a>&nbsp;&nbsp;";
+			s += "<a href='javascript:void(0)' style='color:blue'>编辑</a>&nbsp;&nbsp;";
+			s += "<a href='javascript:void(0)' style='color:blue'>删除</a>";
+			return s;
+		}
+
+		var treeGrid = jQuery("#div1").showTreeGrid(config);
+		treeGrid.expandAll();
+		function _expandAll(){
+			treeGrid.expandAll();
+		}
+		
+		function _collapseAll(){
+			treeGrid.collapseAll();
+		}
+
+		function _refresh(){
+			treeGrid.show();
+		}
+	</script>
+
+</BODY>
+</HTML>

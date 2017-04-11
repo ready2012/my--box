@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>TreeGrid-3.0</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="css/treegrid-3.0.css"/>
+<script type="text/javascript" src="js/jquery.min-1.11.3.js"></script>
+<script type="text/javascript" src="js/json-tree.js"></script>
+<script type="text/javascript" src="js/tree.js"></script>
+<script type="text/javascript" src="js/combo-tree.js"></script>
+<style type="text/css">
+	.combo-box-el{
+		background: url(../../img/icon_xiala.png) right center no-repeat;
+		border:1px solid #ccc;
+		overflow-y: auto;
+	}	
+	.combo-box{
+		overflow-y: auto;	
+	}
+	.combo-box table {
+		border:none;
+	}
+	.combo-box table td{
+		border-color: #ccc;
+	}
+</style>
+</HEAD>
+
+<BODY>
+	
+	<div style="float: left;">
+		<div class="combo-box-el combo-tree1" style="width:250px;">
+			<input type="text" style="border:none;" />
+		</div>
+		
+	</div>
+	<div style="float: left;">
+		<div class="combo-box-el combo-tree2" style="width:250px;">
+			<input type="text" style="border:none;" />
+		</div>
+		
+	</div>
+	
+
+	<input type="hidden" name="" id="ids">
+	<input type="hidden" name="" id="ids2">
+	<script language="javascript">
+		$('.combo-tree1').comboTree({
+			ref:$('#ids'),
+			selects:[668],
+			height:300,
+			multiple:true
+		});
+
+		$('.combo-tree2').comboTree({
+			ref:$('#ids2'),
+			height:300
+		});
+	</script>
+
+</BODY>
+</HTML>

@@ -1,0 +1,132 @@
+.TreeGrid{
+	border-collapse: collapse; 
+	font-size: 11px;
+	border: 1px solid #8BB6EF;
+}
+
+.TreeGrid .header{
+	background-color: #C1DBFA;
+	font-weight: 600;
+	 height: 25px;
+}
+
+.TreeGrid td{
+	border: 1px solid #8BB6EF;
+	padding: 2px 2px 2px 2px;
+}
+
+.TreeGrid a{
+	text-decoration: underline;
+	color: black;
+}
+
+.TreeGrid a:hover{
+	color: red;
+}
+
+.TreeGrid .image_hand{
+	border: 0;
+	cursor: hand;
+	align: absmiddle;
+	margin-right: 2px;
+	vertical-align: base;
+}
+
+.TreeGrid .image_nohand{
+	border: 0;
+	align: absmiddle;
+	margin-right: 2px;
+	vertical-align: base;
+}
+
+.TreeGrid .row_hover{
+	background-color: #ffe48d;
+}
+
+.TreeGrid .row_active{
+	background-color: #ffe48d;
+}
+
+.TreeGrid .summary{
+	font-weight: 600;
+	height: 25px;
+	background-color: #D5F3FF;
+}
+
+#contextMenu{
+	border-collapse: collapse;
+	border: 1px solid #8BB6EF; 
+	position: absolute;
+	font-size: 13px;
+	width: 100px; 
+}
+
+#contextMenu td{
+	border-top: 1px solid #8BB6EF;
+	width: 100%; 
+	text-align: center;
+	background: #DDD;
+	cursor: pointer;
+	height: 26px; 
+}
+
+#contextMenu td a{
+	text-decoration: none;
+}
+
+
+.Tree{
+	border-collapse: collapse; 
+	font-size: 11px;
+	border: 1px solid #8BB6EF;
+}
+
+
+.Tree .header{
+	background-color: #C1DBFA;
+	font-weight: 600;
+	 height: 25px;
+}
+
+.Tree td{
+	border: 1px solid #8BB6EF;
+	padding: 2px 2px 2px 2px;
+}
+
+.Tree a{
+	text-decoration: underline;
+	color: black;
+}
+
+.Tree a:hover{
+	color: red;
+}
+
+.Tree .image_hand{
+	border: 0;
+	cursor: hand;
+	align: absmiddle;
+	margin-right: 2px;
+	vertical-align: base;
+}
+
+.Tree .image_nohand{
+	border: 0;
+	align: absmiddle;
+	margin-right: 2px;
+	vertical-align: base;
+}
+
+.Tree .row_hover{
+	background-color: #ffe48d;
+}
+
+.TreeGrid .row_active{
+	background-color: #ffe48d;
+}
+
+.TreeGrid .summary{
+	font-weight: 600;
+	height: 25px;
+	background-color: #D5F3FF;
+}
